@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+        content="Explore SkyNest Co-Living Spaces accommodation packages in Singapore, including Premium Stay, Standard Stay, and Short-Term & Custom options.">
+  <title>SkyNest Co-Living Spaces | Packages &amp; Advice</title>
+
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #243447;
+      background-color: #f5f7fa;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: 12px;
+      padding: 10px;
+      background-color: #ffffff;
+      color: #123047;
+      z-index: 10;
+    }
+
+    .skip-link:focus {
+      top: 12px;
+    }
+
+    a:focus-visible {
+      outline: 3px solid #c65a00;
+      outline-offset: 3px;
+    }
+
+    /* Header */
+    header {
+      background-color: #123047;
+      color: #ffffff;
+      padding: 24px 0;
+      text-align: center;
+    }
+
+    .site-name {
+      margin: 0;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .tagline {
+      margin: 5px 0 0;
+      color: #e1edf5;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #1d465f;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      list-style: none;
+      margin: 0;
+      padding: 12px 0;
+    }
+
+    .nav-links a {
+      display: block;
+      padding: 10px 16px;
+      border-radius: 5px;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .nav-links a:hover,
+    .nav-links a[aria-current="page"] {
+      background-color: #ffffff;
+      color: #123047;
+    }
+
+    /* Page Sections */
+    .section {
+      padding: 48px 0;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 34px;
+      line-height: 1.25;
+      color: #123047;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      line-height: 1.3;
+      color: #123047;
+    }
+
+    .section-intro {
+      margin: 0 0 28px;
+      color: #3c4f61;
+    }
+
+    /* 3-Column Package Cards */
+    .package-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      align-items: stretch;
+    }
+
+    .package-card {
+      background-color: #ffffff;
+      border: 1px solid #d8e2e8;
+      border-radius: 12px;
+      padding: 28px 24px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .package-summary {
+      margin: 0 0 18px;
+      color: #2c3e50;
+    }
+
+    .package-features {
+      margin: 0 0 24px;
+      padding-left: 20px;
+      color: #243447;
+      flex-grow: 1;
+    }
+
+    .package-features li {
+      margin-bottom: 10px;
+    }
+
+    /* Teal Action Button Inside Each Card */
+    .button {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      padding: 12px 22px;
+      border-radius: 6px;
+      background-color: #146477;
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background-color: #0e4b59;
+    }
+
+    /* Footer */
+    footer {
+      padding: 26px 0;
+      background-color: #123047;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    .footer-note {
+      font-size: 14px;
+      color: #e1edf5;
+    }
+
+    @media (max-width: 900px) {
+      .package-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <div class="container">
+      <p class="site-name">SkyNest Co-Living Spaces</p>
+      <p class="tagline">Flexible living, remote working, and community in Singapore</p>
+    </div>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <div class="container">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="packages-advice.html" aria-current="page">Packages &amp; Advice</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <section class="section">
+      <div class="container">
+        <h1>Our accommodation packages</h1>
+        <p class="section-intro">
+          Choose from our carefully structured stays designed to match your duration and comfort level.
+        </p>
+
+        <div class="package-grid">
+
+          <!-- Box 1: Premium Stay -->
+          <article class="package-card">
+            <h2>Premium Stay</h2>
+            <p class="package-summary">
+              Private studio apartment with comprehensive luxury inclusions.
+            </p>
+            <ul class="package-features">
+              <li>Weekly cleaning service</li>
+              <li>Utilities &amp; high-speed internet included</li>
+              <li>Access to all building facilities</li>
+              <li>Monthly community events pass</li>
+            </ul>
+            <a href="contact.html?package=Premium+Stay" class="button">
+              Choose Premium Stay
+            </a>
+          </article>
+
+          <!-- Box 2: Standard Stay -->
+          <article class="package-card">
+            <h2>Standard Stay</h2>
+            <p class="package-summary">
+              Private bedroom in a shared apartment for a balanced co-living experience.
+            </p>
+            <ul class="package-features">
+              <li>Fortnightly cleaning</li>
+              <li>Utilities included</li>
+              <li>Access to co-working space</li>
+              <li>Shared kitchen and lounge access</li>
+            </ul>
+            <a href="contact.html?package=Standard+Stay" class="button">
+              Choose Standard Stay
+            </a>
+          </article>
+
+          <!-- Box 3: Short-Term & Custom -->
+          <article class="package-card">
+            <h2>Short-Term &amp; Custom</h2>
+            <p class="package-summary">
+              Flexible stays or tailored arrangements for special requirements.
+            </p>
+            <ul class="package-features">
+              <li>Flexible booking (1–4 weeks) for short stays</li>
+              <li>Corporate bookings and long-term options</li>
+              <li>Accessibility requirements accommodated</li>
+              <li>Contact company to arrange custom plans</li>
+            </ul>
+            <a href="contact.html?package=Short-Term+%26+Custom" class="button">
+              Choose Short-Term &amp; Custom
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p><strong>SkyNest Co-Living Spaces</strong> | Singapore</p>
+      <p class="footer-note">
+        Flexible short-term and long-term co-living accommodation.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
